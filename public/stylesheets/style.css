@@ -8,3 +8,46 @@ body {
 a {
   color: #00b7ff;
 }
+.donateButton {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fce2c1;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fce2c1;
+  box-shadow: inset 0px 1px 0px 0px #fce2c1;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25));
+  background: -moz-linear-gradient(center top, #ffc477 5%, #fb9e25 100%);
+  background-color: #ffc477;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+  text-indent: 0;
+  border: 1px solid #eeb44f;
+  display: inline-block;
+  color: #fff;
+  font-family: Verdana;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  height: 61px;
+  line-height: 55px;
+  width: 262px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: -2px 3px 1px #cc9f52;
+}
+.donateButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477));
+  background: -moz-linear-gradient(center top, #fb9e25 5%, #ffc477 100%);
+  background-color: #fb9e25;
+}
+.donateButton:active {
+  position: relative;
+  top: 1px;
+}
