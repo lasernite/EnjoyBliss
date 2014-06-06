@@ -21,12 +21,13 @@ a {
   font-size: 75px;
   padding-top: 200px;
   padding-right: 800px;
-  padding-left: 77px;
+  padding-left: 100px;
+  position: fixed;
 }
 .welcomeDonate {
-  padding-right: 800px;
-  padding-left: 77px;
-  margin-top: -80px;
+  padding-left: 147px;
+  margin-top: 500px;
+  position: fixed;
 }
 .donateButton {
   -moz-box-shadow: inset 0px 1px 0px 0px #fce2c1;
