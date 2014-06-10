@@ -1,6 +1,7 @@
 // web.js
 var express = require("express");
 var logfmt = require("logfmt");
+var jquery = require('jquery');
 var app = express();
 
 var path = require('path');
