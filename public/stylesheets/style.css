@@ -82,7 +82,7 @@ a {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477));
   background: -moz-linear-gradient(center top, #fb9e25 5%, #ffc477 100%);
   background-color: #fb9e25;
-  color:white;
+  color: #fff;
 }
 .donateButton:active {
   position: relative;
@@ -96,7 +96,6 @@ a {
   font-size: 24px
   line-height: 24px
 */
-
 .mountainClass {
   width: 140%;
   font-size: 22px;
