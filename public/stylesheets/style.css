@@ -77,6 +77,7 @@ a {
   text-decoration: none;
   text-align: center;
   text-shadow: -2px 3px 1px #cc9f52;
+  margin-left: 18px;
 }
 .donateButton:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477));
@@ -97,6 +98,17 @@ a {
   line-height: 24px
 */
 .mountainClass {
-  width: 140%;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   font-size: 22px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+#p1 {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+#bliss1 {
+  font-weight: bold;
 }
