@@ -97,18 +97,39 @@ a {
   font-size: 24px
   line-height: 24px
 */
-.mountainClass {
+#p1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+#bliss1 {
+  font-weight: bold;
+}
+.p2 {
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   font-size: 22px;
   position: absolute;
   right: 10%;
   bottom: 10%;
 }
-#p1 {
-  position: absolute;
-  top: 15%;
-  left: 15%;
+#p3 {
+  color: #fff;
+  width: 1100px;
 }
-#bliss1 {
-  font-weight: bold;
+.bliss3 {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  width: 1100px;
+}
+#p4 {
+  color: #fff;
+  width: 1200px;
+}
+.bliss4 {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  width: 1200px;
+}
+.d4 {
+  margin-top: 15px;
 }
