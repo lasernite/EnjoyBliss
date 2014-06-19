@@ -105,6 +105,12 @@ a {
 #bliss1 {
   font-weight: bold;
 }
+.acontact {
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  left: 80%;
+}
 .p2 {
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   font-size: 22px;
