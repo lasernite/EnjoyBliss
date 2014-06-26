@@ -17,33 +17,6 @@ body {
 a {
   color: #00b7ff;
 }
-/*
-.topSection
-  background-image: url(/images/magic_web_meadow.jpg)
-  width: 100%
-  height: 768px
-  background-size: cover
-
-.midSection
-  background-image: url(/images/mountain.jpg)
-  width: 100%
-  height: 768px
-  background-size: cover
-*/
-.welcomeBliss {
-  color: #fff;
-  font-weight: bold;
-  font-size: 75px;
-  padding-top: 200px;
-  padding-right: 800px;
-  padding-left: 100px;
-  position: fixed;
-}
-.welcomeDonate {
-  padding-left: 147px;
-  margin-top: 500px;
-  position: fixed;
-}
 .donateButton {
   -moz-box-shadow: inset 0px 1px 0px 0px #fce2c1;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fce2c1;
@@ -89,14 +62,6 @@ a {
   position: relative;
   top: 1px;
 }
-/*
-.message
-  margin-left: 650px
-  padding-top: 450px
-  color: white
-  font-size: 24px
-  line-height: 24px
-*/
 #p1 {
   position: absolute;
   top: 20%;
@@ -104,12 +69,6 @@ a {
 }
 #bliss1 {
   font-weight: bold;
-}
-.acontact {
-  color: #fff;
-  position: absolute;
-  top: 85%;
-  left: 80%;
 }
 .p2 {
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -138,4 +97,46 @@ a {
 }
 .d4 {
   margin-top: 15px;
+}
+.acontact {
+  color: #fff;
+  position: absolute;
+  top: 85%;
+  left: 80%;
+}
+@media (max-width: 767px) {
+  #p1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+  #bliss1 {
+    font-size: 96px;
+    padding-left: 30px;
+  }
+  .p2 {
+    font-size: 18px;
+  }
+  #p3 {
+    color: #fff;
+    width: 550px;
+  }
+  .bliss3 {
+    width: 550px;
+    font-size: 14px;
+  }
+  .lightcontrast {
+    font-size: 28px;
+  }
+  #p4 {
+    width: 550px;
+    font-size: 28px;
+  }
+  .bliss4 {
+    font-size: 14px;
+    width: 550px;
+  }
+  .acontact {
+    font-size: 18px;
+  }
 }
