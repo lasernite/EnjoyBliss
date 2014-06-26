@@ -107,7 +107,7 @@ a {
 @media (max-width: 767px) {
   #p1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 10%;
   }
   #bliss1 {
@@ -115,26 +115,26 @@ a {
     padding-left: 30px;
   }
   .p2 {
-    font-size: 18px;
+    font-size: 17px;
   }
   #p3 {
     color: #fff;
-    width: 550px;
+    width: 370px;
   }
   .bliss3 {
-    width: 550px;
-    font-size: 14px;
+    width: 370px;
+    font-size: 12px;
   }
   .lightcontrast {
-    font-size: 28px;
+    font-size: 24px;
   }
   #p4 {
-    width: 550px;
-    font-size: 28px;
+    width: 370px;
+    font-size: 24px;
   }
   .bliss4 {
     font-size: 14px;
-    width: 550px;
+    width: 370px;
   }
   .acontact {
     font-size: 18px;
