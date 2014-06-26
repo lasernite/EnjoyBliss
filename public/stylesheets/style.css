@@ -123,20 +123,21 @@ a {
   }
   .bliss3 {
     width: 350px;
-    font-size: 12px;
+    font-size: 11px;
   }
   .lightcontrast {
     font-size: 24px;
   }
   #p4 {
-    width: 350px;
+    width: 340px;
     font-size: 24px;
   }
   .bliss4 {
     font-size: 14px;
-    width: 350px;
+    width: 340px;
   }
   .acontact {
     font-size: 18px;
+    left: 75%;
   }
 }
